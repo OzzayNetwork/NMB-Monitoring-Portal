@@ -437,240 +437,228 @@ function initMap() {
     addMarker({
         coords: { lat: -1.284319, lng: 36.8238173 },
         iconImage: inactiveAgent,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //initiated application
     addMarker({
         coords: { lat: -1.29899, lng: 36.9187 },
         iconImage: inactiveAgent,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //Pending certification
     addMarker({
         coords: { lat: -1.27199, lng: 36.8187 },
         iconImage: inactiveAgent,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //Pending inspespection
@@ -678,80 +666,76 @@ function initMap() {
     addMarker({
         coords: { lat: -1.26199, lng: 36.8987 },
         iconImage: inactiveAgent,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //compliant businbesses
@@ -956,80 +940,76 @@ function initMap() {
     addMarker({
         coords: { lat: -1.2925606, lng: 36.7809636 },
         iconImage: inactiveAgent,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
 

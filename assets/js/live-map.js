@@ -287,8 +287,8 @@ function initMap() {
 
     //the map options
     var options = {
-        zoom: 15,
-        center: { lat: -1.2921, lng: 36.8219 }
+        zoom: 13,
+        center: { lat: -6.1633, lng: 35.7516 }
     }
 
 
@@ -769,168 +769,156 @@ function initMap() {
 
     //compliant businbesses
     addMarker({
-        coords: { lat: -1.29889, lng: 36.8186003 },
+        coords: { lat: -6.1819, lng: 35.7687 },
         iconImage: activeBusiness,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     // business thats due
     addMarker({
-        coords: { lat: -1.29889, lng: 36.8386003 },
+        coords: { lat: -6.1331, lng: 35.7637 },
         iconImage: toBeRenewed,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Nakumat Supermarket
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-warning" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee</strong>
-                <h5>KES 60,000</h5>
-
-                <strong>Accumulated Penalty</strong>
-                <h5>KES 0.00</h5>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank - Mtaa Branch
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">Located near Mkwajuni Market</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Mtwara, Mkwajuni</span> </p>
+        </div>
+
+        <div class="alert alert-warning" role="alert">
+            <strong>Point Category</strong>
+            <p>Bank Branch</p>
+
+            <strong>Potential Population</strong>
+            <p>Estimated 3,500 customers within a 5km radius</p>
+
+            <strong>Application Status</strong>
+            <h5>Pending Visit</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application date
+                            </span>
+                            <div>
+                                Done By Amani Rashid On 25 Nov 2024 10:00 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-primary"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date (Pending)
+                            </span>
+                            <div>
+                                Pending Visit
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     // Revenue officers
     addMarker({
-        coords: { lat: -1.3289, lng: 36.8452003 },
+        coords: { lat: -6.2035, lng: 35.7412 },
         iconImage: activeAgent,
         content: `<p class="d-none">agent|plate num</p>
             <h6 class="text-capitalize align-items-center">
@@ -957,7 +945,7 @@ function initMap() {
     //deputy director
 
     addMarker({
-        coords: { lat: -1.3269, lng: 36.8462003 },
+        coords: { lat: -6.1965, lng: 35.7831 },
         iconImage: activeAgent,
         content: `<p class="d-none">agent|plate num</p>
             <h6 class="text-capitalize align-items-center">
@@ -985,167 +973,150 @@ function initMap() {
     addMarker({
         coords: { lat: -1.2974586, lng: 36.8087993 },
         iconImage: penalizedBusiness,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Kings Hospital
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-danger" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>pending SBP Amount</strong>
-                <h5>KES 60,500</h5>
-
-                <strong>Period In Arrears</strong>
-                <h5>4 Months 2 Days</h5>
-
-                <strong>Accumulated Penalties</strong>
-                <h5>KES 400 (25%)</h5>
-
-                
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        Acme Bank Branch
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Point Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span></p>
+        </div>
+
+        <div class="alert alert-danger" role="alert">
+            <strong>Point Type</strong>
+            <p>Bank Branch</p>
+
+            <strong>Rejection Reason</strong>
+            <h5>Location not meeting zoning regulations</h5>
+
+            <strong>Rejected By</strong>
+            <h5>John Mwita - Zoning Officer</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-danger"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Rejection Date
+                            </span>
+                            <div>
+                                24 Oct 2023 at 10:00 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
 
     //active business
     addMarker({
-        coords: { lat: -1.29948, lng: 36.8151453 },
+        coords: { lat: -6.1797, lng: 35.7254 },
         iconImage:activeBusiness,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //incidents
@@ -1163,250 +1134,225 @@ function initMap() {
     //to be renewd
 
     addMarker({
-        coords: { lat: -1.294219, lng: 36.806824 },
+        coords:{ lat: -6.1973, lng: 35.7484 },
         iconImage: toBeRenewed,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Nakumat Supermarket
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-warning" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee</strong>
-                <h5>KES 60,000</h5>
-
-                <strong>Accumulated Penalty</strong>
-                <h5>KES 0.00</h5>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank - Mtaa Branch
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">Located near Mkwajuni Market</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Mtwara, Mkwajuni</span> </p>
+        </div>
+
+        <div class="alert alert-warning" role="alert">
+            <strong>Point Category</strong>
+            <p>Bank Branch</p>
+
+            <strong>Potential Population</strong>
+            <p>Estimated 3,500 customers within a 5km radius</p>
+
+            <strong>Application Status</strong>
+            <h5>Pending Visit</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application date
+                            </span>
+                            <div>
+                                Done By Amani Rashid On 25 Nov 2024 10:00 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-primary"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date (Pending)
+                            </span>
+                            <div>
+                                Pending Visit
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //active business
     addMarker({
-        coords: { lat: -1.2925606, lng: 36.7809636 },
+        coords: { lat: -6.1404, lng: 35.7706 },
         iconImage: activeBusiness,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Big Mich Hotel
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-success" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>Renewal Fee Paid</strong>
-                <h5>KES 60,500</h5>
-
-                <a class="text-info text-uppercase mt-4 fw-semibold">Receipt No. 123457</a>
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        NMB Bank Agent - Big Mich Hotel
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Business Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Located in the heart of Mwanza city, Tanzania</span></p>
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <strong>Point Type</strong>
+            <p>NMB Bank Agent</p>
+
+            <strong>Service Offered</strong>
+            <p>Banking services, including deposits, withdrawals, and loan applications</p>
+
+            <strong>Approved By</strong>
+            <h5>Amri Abdallah - NMB Bank Agent Manager</h5>
+
+            <strong>Approval Date</strong>
+            <h5>1 Nov 2023</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application Date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-success"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Approval Date
+                            </span>
+                            <div>
+                                1 Nov 2023 at 2:00 PM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
 
     // penalized business
     addMarker({
-        coords: { lat: -1.2924789, lng: 36.8243687 },
+        coords: { lat: -6.1192, lng: 35.7778 },
         iconImage: penalizedBusiness,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body px-0 mb-3">
-                   <div class="d-flex">
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
-                        Kings Hospital
-                       </h5>
-                       <p class="text-truncate  text-uppercase text-grey mb-4">30 Meteres from Sub County headquaters</p>
-                   </div>
-                   </div>
-            </div>
-
-            <div class="alert alert-info">
-                <strong>Business Location</strong>                
-                <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span> </p>
-            </div>
-
-            <div class="alert alert-danger" role="alert">
-               <strong>Business Category</strong>
-               <p>Accomodation & Catering</p>
-
-               <strong>Business Sub Category</strong>
-               <p>Large high standard lodging house/hotel D class with over 100 rooms</p>
-
-               <strong>pending SBP Amount</strong>
-                <h5>KES 60,500</h5>
-
-                <strong>Period In Arrears</strong>
-                <h5>4 Months 2 Days</h5>
-
-                <strong>Accumulated Penalties</strong>
-                <h5>KES 400 (25%)</h5>
-
-                
-            </div>
-
-           
-
-            <div class="card-body">
-
-               
-                <ul class="verti-timeline list-unstyled">        
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-square font-size-18 text-black"></i>
-                        </div>
-                        <div class="d-flex">
-                            
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Application date
-                            </span>
-                                <div>
-                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="event-list">
-                        <div class="event-timeline-dot">
-                            <i class="mdi mdi-circle font-size-18 text-primary"></i>
-                        </div>
-                        <div class="d-flex">
-                           
-                            <div class="flex-grow-1">
-                            <span class="text-muted">
-                             Last Renewed 
-                            </span>
-                                <div>
-                                23 Oct 2023 at 4:34 PM
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+        content: `<p class="d-none">application|identifier</p>
+<h6 class="d-flex align-items-center">
+    <div class="card mb-0">
+        <div class="card-body px-0 mb-3">
+            <div class="d-flex">
+                <div class="flex-grow-1 overflow-hidden pe-5">
+                    <h5 class="text-truncate font-size-16 mb-1 text-capitalize">
+                        Acme Bank Branch
+                    </h5>
+                    <p class="text-truncate text-uppercase text-grey mb-4">30 Meters from Sub County headquarters</p>
+                </div>
             </div>
         </div>
-           
-            `
+
+        <div class="alert alert-info">
+            <strong>Point Location</strong>
+            <p class="text-muted mb-0"><i class="mdi mdi-map-marker text-success align-middle me-1 font-18px"></i><span class="the-clicked-address">Unknown Location</span></p>
+        </div>
+
+        <div class="alert alert-danger" role="alert">
+            <strong>Point Type</strong>
+            <p>Bank Branch</p>
+
+            <strong>Rejection Reason</strong>
+            <h5>Location not meeting zoning regulations</h5>
+
+            <strong>Rejected By</strong>
+            <h5>John Mwita - Zoning Officer</h5>
+        </div>
+
+        <div class="card-body">
+            <ul class="verti-timeline list-unstyled">
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-square font-size-18 text-black"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Application date
+                            </span>
+                            <div>
+                                Done By Elvice Weke On 22 Oct 2023 11:34 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="event-list">
+                    <div class="event-timeline-dot">
+                        <i class="mdi mdi-circle font-size-18 text-danger"></i>
+                    </div>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="text-muted">
+                                Rejection Date
+                            </span>
+                            <div>
+                                24 Oct 2023 at 10:00 AM
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</h6>
+`
     });
 
     //buss park
@@ -1418,54 +1364,54 @@ function initMap() {
     // });
 
     //Taxi offline
-    addMarker({
-        coords: { lat: -1.27576, lng: 36.834851 },
-        iconImage: subCountyOffices,
-        content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
-        <div class="card mb-0">
-            <div class="card-body p-0 mb-2">
-                   <div class="d-flex">
+    // addMarker({
+    //     coords: { lat: -6.1806, lng: 35.7120 },
+    //     iconImage: subCountyOffices,
+    //     content: `<p class="d-none">application|identifier</p><h6 class="d-flex align-items-center">
+    //     <div class="card mb-0">
+    //         <div class="card-body p-0 mb-2">
+    //                <div class="d-flex">
                    
-                   <div class="flex-grow-1 overflow-hidden pe-5">
-                       <h5 class="text-truncate font-size-14 mb-1 text-capitalize">
-                       Ndhiwa Sub County
-                        <div class="rating-star">
-                                <input type="hidden" class="rating" data-filled="mdi mdi-star text-warning" data-empty="mdi mdi-star-outline text-muted" data-readonly value="3.5" />
-                            </div>
-                       </h5>                      
-                   </div>
+    //                <div class="flex-grow-1 overflow-hidden pe-5">
+    //                    <h5 class="text-truncate font-size-14 mb-1 text-capitalize">
+    //                    Ndhiwa Sub County
+    //                     <div class="rating-star">
+    //                             <input type="hidden" class="rating" data-filled="mdi mdi-star text-warning" data-empty="mdi mdi-star-outline text-muted" data-readonly value="3.5" />
+    //                         </div>
+    //                    </h5>                      
+    //                </div>
 
                    
-                   </div>
-            </div>
+    //                </div>
+    //         </div>
 
-            <div class="alert alert-info mb-2" role="alert">
-                <strong>Registered Businesses</strong>
-                22 Businesses
-            </div>
+    //         <div class="alert alert-info mb-2" role="alert">
+    //             <strong>Registered Businesses</strong>
+    //             22 Businesses
+    //         </div>
 
-            <div class="alert alert-success mb-2" role="alert">
-                <strong>Paid SBPs</strong>
-                14 Businesses
-            </div>
+    //         <div class="alert alert-success mb-2" role="alert">
+    //             <strong>Paid SBPs</strong>
+    //             14 Businesses
+    //         </div>
 
-            <div class="alert alert-danger mb-2" role="alert">
-                <strong>Unpaid SBPs</strong>
-                8 Businesses
-            </div>
+    //         <div class="alert alert-danger mb-2" role="alert">
+    //             <strong>Unpaid SBPs</strong>
+    //             8 Businesses
+    //         </div>
 
-            <div class="alert alert-warning mb-2" role="alert">
-                <strong>Ongoing Applications</strong>
-                23 Applications
-            </div>
+    //         <div class="alert alert-warning mb-2" role="alert">
+    //             <strong>Ongoing Applications</strong>
+    //             23 Applications
+    //         </div>
 
             
 
            
-        </div>
+    //     </div>
            
-            `
-    });
+    //         `
+    // });
 
     //add marker function
     function addMarker(props) {
